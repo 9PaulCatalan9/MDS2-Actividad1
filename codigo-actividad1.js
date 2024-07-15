@@ -3,8 +3,8 @@
 */
 'use strict'
 function actividadUno() {
-   numeros = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]; // Array con los números del 1 al 10
-   resultado = '';
+    const numeros = [1,2,3,4,5,6,7,8,9,10]; // Array con los números del 1 al 10
+    let resultado = '';
 
   // Utilizar una variable global para almacenar el resultado
   for (var i = 0; i < numeros.length; i++) {
